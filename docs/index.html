@@ -1,11 +1,159 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - LUIS GUSTAVO DE FARIA</title>
+    <link rel="stylesheet" href="index.css?v=4">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Bem vindo ao Portfólio de LUIS GUSTAVO DE FARIA</h1>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">Portfólio</h2>
+            </a>
+
+            <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+                <i class="ri-menu-line"></i>
+            </button>
+
+            <ul class="nav-menu">
+                <li>
+                    <a href="#sobre" class="nav-item">Sobre</a>
+                </li>
+                <li>
+                    <a href="#trabalhos" class="nav-item">Trabalhos Acadêmicos</a>
+                </li>
+                <li>
+                    <a href="#redes" class="nav-item">Redes Sociais</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Olá, eu sou o Luis Gustavo</h2>
+                    <h3 class="subtitle">Estudante de Análise e Desenvolvimento de Sistemas Multiplataforma</h3>
+                    <p class="description">
+                        Desenvolvedor em formação, estudante de Análise e Desenvolvimento de Sistemas Multiplataforma.
+                        Trabalho com HTML, CSS, JavaScript, TypeScript e Python, além de Node.js e Docker para construção
+                        de aplicações escaláveis. Tenho interesse em desenvolvimento web e busco oportunidades para aplicar
+                        e expandir meus conhecimentos na prática.
+                    </p>
+                </div>
+            </div>
+
+            <div class="hero-image-wrapper">
+                <img src="imagens/luis.png" alt="Foto de Luis Gustavo" class="hero-image">
+            </div>
+        </section>
+
+        <section id="sobre" class="about-section reveal">
+            <div class="image-wrapper">
+                <img src="imagens/Img-programador.png" alt="Ilustração de um desenvolvedor programando" class="image-sobre">
+            </div>
+
+            <div class="about-container">
+
+                <div class="about-content">
+                    <h2 class="title">Sobre mim</h2>
+                    <p>
+                        Me chamo Luis Gustavo, tenho 19 anos e sou estudante de Análise e Desenvolvimento de Sistemas na Fatec de Jacareí,
+                        com foco em me tornar um desenvolvedor. Possuo conhecimentos em JavaScript, TypeScript, React, Node.js
+                        e Python, além de fundamentos de front-end com HTML e CSS.
+                    </p>
+
+                    <p>
+                        Durante minha formação, desenvolvi aplicações utilizando Node.js, Next.js, React e Docker, aplicando na prática
+                        conceitos de desenvolvimento e organização de sistemas.
+                    </p>
+
+                    <p>
+                        Tenho interesse constante em aprender e evoluir na área de tecnologia, buscando aprimorar minhas
+                        habilidades por meio de estudos e projetos. Possuo certificações em Fundamentos de
+                        Programação e T.I a partir de cursos de instituições como SENAI e @LL  Net.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects-section reveal" id="trabalhos">
+            <div class="projects-container">
+                <h2 class="projects-title">Trabalhos Acadêmicos</h2>
+
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3 class="project-name">AgriRS Lab - Website Institucional</h3>
+
+                        <p class="project-description">
+                            Desenvolvimento de um website institucional moderno e responsivo para o Laboratório de
+                            Sensoriamento Remoto Agrícola do INPE (AgriRS Lab), com foco na divulgação científica,
+                            organização de informações e acessibilidade ao público.
+                        </p>
+
+                        <p class="project-role">
+                            <strong>Minha participação:</strong> Atuei como desenvolvedor front-end, sendo responsável
+                            pela criação das interfaces no Figma e implementação das telas utilizando HTML, CSS e JavaScript,
+                            garantindo responsividade e boa experiência do usuário.
+                        </p>
+
+                        <p class="project-extra">
+                            O projeto foi desenvolvido utilizando metodologia ágil (Scrum), com foco em organização de
+                            entregas, trabalho em equipe e evolução contínua.
+                        </p>
+
+                        <div class="project-techs">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Figma</span>
+                            <span>Scrum</span>
+                            <span>GitHub</span>
+                        </div>
+
+                        <a href="https://github.com/devmaster-organizations/inpe-sensoriamentoremoto/tree/main" target="_blank" rel="noopener noreferrer" class="project-link">
+                            Ver no GitHub →
+                        </a>
+                    </div>
+
+                    <div class="project-card placeholder">
+                        <h3 class="project-name">Em desenvolvimento</h3>
+
+                        <p class="project-description">
+                            Novos projetos estão sendo desenvolvidos e serão adicionados em breve.
+                        </p>
+
+                        <p class="project-role">
+                            Sempre buscando evoluir e aplicar novos conhecimentos na prática.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="social-section reveal" id="redes">
+            <div class="social-container">
+                <h2 class="social-title">Redes Sociais</h2>
+
+                <div class="social-grid">
+                    <a href="https://github.com/LuisGustavo9" target="_blank" rel="noopener noreferrer" class="social-card">
+                        <h3><i class="ri-github-fill"></i> GitHub</h3>
+                        <p>Veja meus projetos e códigos</p>
+                    </a>
+
+                    <a href="mailto:lgustavodefaria@gmail.com" class="social-card">
+                        <h3><i class="ri-mail-fill"></i> Email</h3>
+                        <p>Entre em contato diretamente</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="index.js"></script>
 </body>
 </html>
