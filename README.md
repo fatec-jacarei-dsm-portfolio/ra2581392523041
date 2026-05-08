@@ -53,4 +53,4 @@ Este repositório tem como objetivo apresentar minha evolução acadêmica ao lo
 
 ---
 
-📧 Contato: thales.tcd@gmail.com
+📧 Contato: lgustavodefaria@gmail.com
